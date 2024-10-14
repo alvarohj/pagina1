@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Álvaro Hernández - Software Developer</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&display=swap">
+  <style>
+    body {
+      font-family: 'Fira Code', monospace;
+      background-color: #1E1E1E;
+      color: #D4D4D4;
+    }
+    .code-title {
+      color: #569CD6;
+    }
+    .bg-custom-dark {
+      background-color: #252526;
+    }
+  </style>
+</head>
+
+<body class="min-h-screen bg-custom-dark text-gray-300">
+  <div class="container mx-auto px-4 py-10">
+    <!-- Header -->
+    <header class="flex items-center justify-between mb-10">
+      <h1 class="text-4xl font-bold code-title">Álvaro Hernández</h1>
+      <nav class="space-x-4">
+        <a href="#projects" class="text-gray-400 hover:text-blue-400">Projects</a>
+        <a href="#about" class="text-gray-400 hover:text-blue-400">About Me</a>
+        <a href="#contact" class="text-gray-400 hover:text-blue-400">Contact</a>
+      </nav>
+    </header>
+
+    <!-- Main Section -->
+    <section id="projects">
+      <h2 class="text-3xl mb-4">My Projects</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Project Cards -->
+        <div class="bg-gray-800 p-4 rounded-lg">
+          <h3 class="text-xl font-bold text-blue-400">Project 1</h3>
+          <p class="mt-2">Description of your project.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="mt-10">
+      <h2 class="text-3xl mb-4">About Me</h2>
+      <p class="text-gray-400">
+        I'm a passionate software developer with a background in music and a love for mathematics...
+      </p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="mt-10">
+      <h2 class="text-3xl mb-4">Contact</h2>
+      <p>If you'd like to get in touch, feel free to reach out via email or follow me on social media.</p>
+    </section>
+  </div>
+</body>
+
+</html>
